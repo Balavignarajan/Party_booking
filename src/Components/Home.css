@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+.home{
+    background-image:url('../img/bghome.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90.7vh;
+}
+
+.home-logo img{
+     width: 500px;
+     height: 300px;
+     padding-top: 210px;
+     padding-left: 70px;
+}
+
+/* form css */
+ 
+.home-form{
+   background-color: #fff;
+   width: 480px;
+   height: 520px;
+   display: flex;
+   justify-content: center;
+   margin-top: -450px;
+   margin-left: 780px;
+}
+
+.home-form2{
+    margin-left: 10px; 
+}
+.home-form2 h1{
+      display: flex;
+      justify-content: center;
+      
+} 
+
+form input, select, option{
+    width: 200px;
+    height:30px;
+    color: gray;
+} 
+form ::placeholder{
+    padding-left: 10px;
+}
+
+.form-row22{
+    margin-left: 25px;
+}
+.form-row2{
+  margin-left: 20px;
+}
+
+/* radio */
+
+.radio-all{
+    display: flex;
+    gap: 25px;
+}
+
+.head-radio{
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.radio1{
+    padding-top: 5px;
+    padding-left: 10px;
+    display: flex;
+    color: darkgray;
+}
+.radio1 input{
+   width: 50px;
+   height: 20px;  
+}
+
+.radio-input-txt{
+    padding-top: 15px;
+    
+}
+/* Default styling for placeholder on the left */
+
+
+.last-txt{
+    display: flex;
+    justify-content: center;
+    padding-top: 12px; 
+    font-size: 14px;
+    color: gray;
+}
+
+.btn-form button{
+    background-color: #005417;
+    color: white;
+    border-radius: 25px;
+    border: none;
+    width: 150px;
+    height: 40px;
+    margin: 20px 150px;
+}
+
+
+
+
+
+

@@ -1,0 +1,42 @@
+.page2bg{
+    background-image:url('../img/Group\ 44.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 10vh;
+}
+
+.page2-heading{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: white;
+}
+
+.flogo{
+    margin-top: 60px;
+    padding-left: 80px;
+}
+
+.page2-mid {
+    display: flex;
+    justify-content: space-around;
+}
+
+.page2-content {
+    margin-left: 65px;
+    padding: 10px;    /* Add padding to give some space around */
+    font-size: 16px;  /* Adjust font size */
+    line-height: 1.8; /* Adjust line height for readability */
+}
+
+.page2-img img{
+    width: 400px;
+}
+
+.page2-last-txt h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: #0F5B92;
+}
